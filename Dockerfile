@@ -1,6 +1,8 @@
-BFROM	phusion/baseimage
+FROM	phusion/baseimage
 
-R1;2802;0cUN	add-apt-repository ppa:couchdb/stable -y && apt-get update -y && apt-get install -y couchdb nodejs lame vorbis-tools flac faad graphicsmagick git python2.7 make build-essential && mkdir -p /app/10er10
+MAINTAINER  aschen
+
+RUN	add-apt-repository ppa:couchdb/stable -y && apt-get update -y && apt-get install -y couchdb nodejs lame vorbis-tools flac faad graphicsmagick git python2.7 make build-essential && mkdir -p /app/10er10
 
 
 # Install couchdb
