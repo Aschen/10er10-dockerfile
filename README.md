@@ -4,6 +4,8 @@
 # Installation
 - First download this repository : ```git https://github.com/Aschen/10er10-dockerfile.git 10er10-dockerfile```
 - Build the image : ```docker build -t aschen/10er10 10er10-dockerfile ```
+- You can also pull the images from docker registry : ```docker pull aschen/10er10```
+
 - Launch the a new container : ```docker run -d -p 8124:8124 -v /app/10er10/musics:/app/10er10/musics -e "LOGIN=your_login" -e "PASSWD=your_password" aschen/10er10 ```
 
 You can provide two environment variables LOGIN and PASSWD to create a default user in 10er10.
