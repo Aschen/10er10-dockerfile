@@ -1,5 +1,5 @@
 # 10er10-dockerfile
-10er10 music player in docker container. (https://github.com/dready92/10er10)
+10er10 music player in a Docker container. (https://github.com/dready92/10er10)
 
 # Installation
 - First download this repository : ```git https://github.com/Aschen/10er10-dockerfile.git 10er10-dockerfile```
